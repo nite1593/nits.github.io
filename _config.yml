@@ -19,10 +19,26 @@ highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about
+  - title: "Research"
+    url: /research
+  - title: "Publications"
+    url: /publications
+  - title: "People"
+    url: /people
+  - title: "Contact"
+    url: /contact
+
+
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Nitesh'
-description:	       'a minimalist Jekyll theme'
-author:              'Paul Le'
+title:                 'Soft Matter & Active Materials Lab'
+description:           'Exploring magnetoelasticity, soft composites, and active matter'
+author:                'Nitesh Arora'
+
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
