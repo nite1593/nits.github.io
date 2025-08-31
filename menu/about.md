@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Welcome to Architected Materials Lab!
 permalink: /about
 ---
