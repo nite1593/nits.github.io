@@ -15,8 +15,27 @@ $dark-gray-color:        #333;
 $light-gray-color:       #999;
 $extra-light-gray-color: #ccc;
 
+// Responsive container width settings
+
+// breakpoint for mobile vs. larger screens
 $container-responsive-width: 768px;
-$elements-responsive-width:  30em;
+
+// default full width
+@media screen and (max-width: $container-responsive-width) {
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+// on larger screens, limit to 65%
+@media screen and (min-width: $container-responsive-width) {
+    .wrapper {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
 
 $icon-transition-time: .5s;
 $envelope-color:       #f39c12;
