@@ -33,7 +33,7 @@ $container-responsive-width: 768px;
 /* On larger screens, limit to 65% */
 @media screen and (min-width: $container-responsive-width) {
     .content-container {
-        width: 65%;
+        width: 75%;
         margin: 0 auto;
     }
 }
